@@ -21,12 +21,12 @@ A Verilog-based Virtual PLC that maintains microgrid frequency stability using a
 - **Crisis Burst Auto-Lock:** Enters Defensive Mode if 5 instability events occur within 10 seconds and requires manual reset.
 
 ## Repository Contents
-- [aegis_controller.v](./aegis_controller.v) – Top module implementing the core controller features.
-- [tb_aegis_controller.v](./tb_aegis_controller.v) – Testbench for the top module.
-- [aegis_controller_behav.png](./aegis_controller_behav.png) – Simulation waveform of the core controller.
-- [aegis_grid_controller.v](./aegis_grid_controller.v) – Implementation of the special features.
-- [tb_aegis_grid.v](./tb_aegis_grid.v) – Testbench for the special features.
-- [aegis_controller_SF_behav.png](./aegis_controller_SF_behav.png) – Simulation waveform for the special features.
+- [aegis_controller.v](src/aegis_controller.v) – Top module implementing the core controller features.
+- [tb_aegis_controller.v](src/tb_aegis_controller.v) – Testbench for the top module.
+- [aegis_grid_controller.v](src/aegis_grid_controller.v) – Module implementing the special features.
+- [tb_aegis_grid.v](src/tb_aegis_grid.v) – Testbench for the special features.
+- [aegis_controller_behav.png](simulation/waveforms/aegis_controller_behav.png) – Simulation waveform of the core controller.
+- [aegis_controller_SF_behav.png](simulation/waveforms/aegis_controller_SF_behav.png) – Simulation waveform for the special features.
 
 ## Tools
 - Xilinx Vivado
