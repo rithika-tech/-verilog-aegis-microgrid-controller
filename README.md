@@ -35,4 +35,4 @@ A Verilog-based Virtual PLC that maintains microgrid frequency stability using a
 - Verilog HDL
 
 ## Author
-R Rithika
+**R Rithika**
